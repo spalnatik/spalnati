@@ -5,7 +5,7 @@ sed -i '/^\[main\]/a dhcp = dhclient' /etc/NetworkManager/NetworkManager.conf
 
 systemctl restart network
 
-yum install -y realmd oddjob oddjob-mkhomedir sssd adcli krb5-workstation samba-common-tools nmap tcpdump 
+yum install -y adcli krb5-workstation nmap oddjob oddjob-mkhomedir realmd samba-common-tools sssd
 
 realm discover contoso.com
 
