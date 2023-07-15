@@ -1,3 +1,5 @@
+#!/bin/bash
+
 echo 'append domain-search "contoso.com"' >> /etc/dhcp/dhclient.conf
 sed -i '/^\[main\]/a dhcp = dhclient' /etc/NetworkManager/NetworkManager.conf
 
