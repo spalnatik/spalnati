@@ -8,7 +8,7 @@ echo "Script execution started at: $timestamp"
 
 vmname1="win2019adserver"
 vmname2="linuxad"
-rgname="Lab_Azure_AD_sai"
+rgname="Lab_Azure_AD"
 offer="MicrosoftWindowsServer:WindowsServer:2019-datacenter-smalldisk:latest"
 offer1="OpenLogic:CentOS:7_9:latest"
 loc="eastus"
