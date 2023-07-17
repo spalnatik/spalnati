@@ -15,7 +15,7 @@ loc="eastus"
 sku_size="Standard_D2s_v3"
 vnetname="AD-vnet"
 subnetname="ADsubnet"
-logfile="deploy.log"
+logfile="AD.log"
 
 # Parse command line arguments
 while getopts "i:" opt; do
