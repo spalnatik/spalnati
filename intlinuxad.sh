@@ -129,7 +129,7 @@ sleep 120
 
 
 echo 'adding server to the domain'
-az vm run-command invoke   --resource-group $rgname   --name $vmname2   --command-id RunShellScript   --scripts "echo $password | realm join -U $username contoso.com" >> $logfile
+az vm run-command invoke   --resource-group $rgname   --name $vmname2   --command-id RunShellScript   --scripts "echo $password | realm join -U $username intl.contoso.com" >> $logfile
 
 
 end_time=$(date +"%Y-%m-%d %H:%M:%S")
