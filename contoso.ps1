@@ -6,7 +6,7 @@ Install-ADDSForest `
     -CreateDnsDelegation:$false `
     -DatabasePath "C:\windows\NTDS" `
     -DomainMode "WinThreshold" `
-    -DomainName "Contoso.com" `
+    -DomainName "intl.contoso.com" `
     -DomainNetbiosName "CONTOSO" `
     -ForestMode "WinThreshold" `
     -InstallDns:$true `
