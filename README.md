@@ -1,4 +1,4 @@
-# spalnati
+# spalnati - AD integration
 
 I have written a script to automate the process of integrating a server with Active Directory. This script is designed to assist with troubleshooting AD replication issues, which are commonly encountered.
 
